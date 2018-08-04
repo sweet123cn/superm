@@ -11,6 +11,7 @@ namespace Vic.SuperS.UI.ConsoleApp
     {
         static void Main(string[] args)
         {
+            //demo git change
             ShoppingService shoppingService = new ShoppingService();
 
             var allProducts = shoppingService.GetAllProducts();
